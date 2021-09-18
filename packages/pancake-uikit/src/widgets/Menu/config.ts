@@ -26,11 +26,11 @@ export const links: MenuItemsType[] = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://exchange.tianguis.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://exchange.tianguis.finance/#/pool",
       },
     ],
   },
@@ -142,7 +142,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   },
   {
     type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://pancakeswap.finance",
+    href: "https://tianguis.finance",
     label: "Link",
   },
   {
