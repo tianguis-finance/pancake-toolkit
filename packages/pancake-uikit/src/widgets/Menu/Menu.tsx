@@ -87,7 +87,7 @@ const Menu: React.FC<NavProps> = ({
           setShowMenu(true);
         } else {
           // Has scroll down
-          setShowMenu(false);
+          setShowMenu(true); // era false para siempre ver el menu
         }
       }
       refPrevOffset.current = currentOffset;
