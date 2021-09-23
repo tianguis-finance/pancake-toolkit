@@ -7,28 +7,28 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.tianguis.finance/contact-us",
+        href: "https://t.me/tianguisfinance",
       },
-      {
+      /*   {
         label: "Blog",
         href: "https://pancakeswap.medium.com/",
-      },
+      }, */
       {
         label: "Community",
-        href: "https://docs.tianguis.finance/contact-us/telegram",
+        href: "https://t.me/tianguisfinance",
       },
-      {
+      /*   {
         label: "CAKE",
         href: "https://docs.tianguis.finance/tokenomics/cake",
-      },
-      {
+      }, */
+      /*  {
         label: "—",
-      },
-      {
+      }, */
+      /*  {
         label: "Online Store",
         href: "https://pancakeswap.creator-spring.com/",
         isHighlighted: true,
-      },
+      }, */
     ],
   },
   {
@@ -36,15 +36,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.tianguis.finance/contact-us/customer-support",
+        href: "https://t.me/tianguisfinance",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.tianguis.finance/help/troubleshooting",
+        href: "https://t.me/tianguisfinance",
       },
       {
         label: "Guides",
-        href: "https://docs.tianguis.finance/get-started",
+        href: "https://t.me/tianguisfinance",
       },
     ],
   },
@@ -53,23 +53,23 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/tianguis-finance",
       },
       {
         label: "Documentation",
-        href: "https://docs.tianguis.finance",
+        href: "https://t.me/tianguisfinance",
       },
       {
         label: "Bug Bounty",
-        href: "https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty",
+        href: "https://t.me/tianguisfinance",
       },
       {
         label: "Audits",
-        href: "https://docs.tianguis.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://t.me/tianguisfinance",
       },
       {
         label: "Careers",
-        href: "https://docs.tianguis.finance/hiring/become-a-chef",
+        href: "https://t.me/tianguisfinance",
       },
     ],
   },
@@ -79,17 +79,17 @@ export const socials = [
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/tianguis_fi",
   },
   {
     label: "Telegram",
     icon: "Telegram",
     items: [
-      {
+      /*  {
         label: "English",
         href: "https://t.me/pancakeswap",
-      },
-      {
+      }, */
+      /*  {
         label: "Bahasa Indonesia",
         href: "https://t.me/PancakeSwapIndonesia",
       },
@@ -116,43 +116,43 @@ export const socials = [
       {
         label: "Português",
         href: "https://t.me/PancakeSwapPortuguese",
-      },
+      }, */
       {
         label: "Español",
-        href: "https://t.me/PancakeswapEs",
+        href: "https://t.me/tianguisfinance",
       },
-      {
+      /*   {
         label: "日本語",
         href: "https://t.me/pancakeswapjp",
       },
       {
         label: "Français",
         href: "https://t.me/pancakeswapfr",
-      },
+      }, */
       {
         label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
+        href: "https://t.me/tianguisfinance",
       },
-      {
+      /*  {
         label: "Whale Alert",
         href: "https://t.me/PancakeSwapWhales",
-      },
+      }, */
     ],
   },
-  {
+  /*  {
     label: "Reddit",
     icon: "Reddit",
     href: "https://reddit.com/r/pancakeswap",
-  },
-  {
+  }, */
+  /* {
     label: "Instagram",
     icon: "Instagram",
     href: "https://instagram.com/pancakeswap_official",
-  },
+  }, */
   {
     label: "Github",
     icon: "Github",
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/tianguis-finance/",
   },
 ];
 
