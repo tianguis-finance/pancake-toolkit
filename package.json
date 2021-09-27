@@ -1,7 +1,7 @@
 {
-  "name": "pancake-toolkit",
-  "version": "1.0.0",
-  "description": "Pancake frontend packages",
+  "name": "tianguis-toolkit",
+  "version": "0.0.3",
+  "description": "tianguis frontend packages",
   "private": true,
   "workspaces": [
     "packages/*"
