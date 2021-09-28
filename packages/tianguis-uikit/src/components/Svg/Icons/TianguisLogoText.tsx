@@ -4,7 +4,7 @@ import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <Svg viewBox="0 0 90 160" {...props}>
+    <Svg viewBox="0 0 260 160" {...props}>
       <g>
         <polygon points="65.195,12.975 17.21,12.975 9.686,8.641 67.842,8.641 	" />
         <polygon points="77.107,12.975 125.092,12.975 132.617,8.641 74.459,8.641 	" />
