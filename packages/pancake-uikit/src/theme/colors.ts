@@ -54,7 +54,7 @@ export const darkColors: Colors = {
   secondary: "#56ba81",
   background: "#08060B",
   backgroundDisabled: "#3c3742",
-  backgroundAlt: "rgba(235, 231, 32, 0.7)",
+  backgroundAlt: "rgba(196, 67, 0, 0.7)",
   backgroundAlt2: "rgba(39, 38, 44, 0.7)",
   cardBorder: "#ffcc33",
   contrast: "#FFFFFF",
