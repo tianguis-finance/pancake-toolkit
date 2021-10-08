@@ -1,7 +1,7 @@
 {
   "name": "@tianguis-finance/uikit",
-  "version": "0.0.5",
-  "description": "UI componentes pal tianguis",
+  "version": "0.0.6",
+  "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
