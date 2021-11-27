@@ -19,6 +19,7 @@ const Wrapper = styled.div`
   width: 100%;
 `;
 
+// background en StyledNav es el header panel menu bg
 const StyledNav = styled.nav<{ showMenu: boolean }>`
   position: fixed;
   top: ${({ showMenu }) => (showMenu ? 0 : `-${MENU_HEIGHT}px`)};
