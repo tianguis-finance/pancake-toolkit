@@ -671,7 +671,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: #BDC2C4;
-  border-radius: 24px;
+  border-radius: 16px;
   box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
   cursor: pointer;
   display: -webkit-inline-box;

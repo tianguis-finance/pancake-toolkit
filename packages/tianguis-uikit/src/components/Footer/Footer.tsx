@@ -14,7 +14,7 @@ import { FooterProps } from "./types";
 import { ThemeSwitcher } from "../ThemeSwitcher";
 import LangSelector from "../LangSelector/LangSelector";
 import CakePrice from "../CakePrice/CakePrice";
-import { LogoWithTextIcon, ArrowForwardIcon } from "../Svg";
+import { LogoWithTextIcon, LogoFooterIcon, ArrowForwardIcon } from "../Svg";
 import { Button } from "../Button";
 import { Colors } from "../..";
 
@@ -61,7 +61,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </StyledList>
           ))}
           <Box display={["none", null, "block"]}>
-            <LogoWithTextIcon isDark width="160px" />
+            <LogoFooterIcon isDark width="160px" />
           </Box>
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
@@ -71,7 +71,7 @@ const MenuItem: React.FC<FooterProps> = ({
           justifyContent="space-between"
         >
           <Flex order={[2, null, 1]} alignItems="center">
-            <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+            {/*             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />*/}
             <LangSelector
               currentLang={currentLang}
               langs={langs}
@@ -86,10 +86,10 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://tianguis.finance/swap?outputCurrency=0x5625eb03D999817941BaD868BbF8A0eaf0749557"
+              href="https://tianguis.finance/swap?outputCurrency=0xadcBAEbaac0f775923eBDFb6B904399DA8801275"
               target="_blank"
               scale="sm"
-              endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
+              endIcon={<ArrowForwardIcon color={darkColors.backgroundAlt} />}
             >
               {buyCakeLabel}
             </Button>
