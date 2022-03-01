@@ -86,7 +86,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://tianguis.finance/swap?outputCurrency=0xadcBAEbaac0f775923eBDFb6B904399DA8801275"
+              href="https://app.tianguis.finance/swap?outputCurrency=0xadcBAEbaac0f775923eBDFb6B904399DA8801275"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={darkColors.backgroundAlt} />}

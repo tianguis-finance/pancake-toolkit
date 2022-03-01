@@ -142,7 +142,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   },
   {
     type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://tianguis.finance",
+    href: "https://app.tianguis.finance",
     label: "Link",
   },
   {

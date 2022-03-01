@@ -3,7 +3,7 @@ import { renderWithTheme } from "../../testHelpers";
 import { Link, LinkExternal } from "../../components/Link";
 
 it("renders link correctly", () => {
-  const { asFragment } = renderWithTheme(<Link href="https://tianguis.finance">Link</Link>);
+  const { asFragment } = renderWithTheme(<Link href="https://app.tianguis.finance">Link</Link>);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c0 {
@@ -35,7 +35,7 @@ it("renders link correctly", () => {
     <a
         class="c0 c1"
         color="primary"
-        href="https://tianguis.finance"
+        href="https://app.tianguis.finance"
       >
         Link
       </a>
@@ -44,7 +44,7 @@ it("renders link correctly", () => {
 });
 
 it("renders link external link correctly", () => {
-  const { asFragment } = renderWithTheme(<LinkExternal href="https://tianguis.finance">Link</LinkExternal>);
+  const { asFragment } = renderWithTheme(<LinkExternal href="https://app.tianguis.finance">Link</LinkExternal>);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c0 {
@@ -87,7 +87,7 @@ it("renders link external link correctly", () => {
     <a
         class="c0 c1"
         color="primary"
-        href="https://tianguis.finance"
+        href="https://app.tianguis.finance"
         rel="noreferrer noopener"
         target="_blank"
       >
