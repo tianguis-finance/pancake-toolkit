@@ -60,6 +60,7 @@ export type Colors = {
   backgroundAlt: string;
   backgroundAlt2: string;
   backgroundCard: string,
+  backgroundDropdownMenu: string,
   text: string;
   textDisabled: string;
   textSubtle: string;
